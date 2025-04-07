@@ -21,7 +21,7 @@ function App() {
     }
     setPassword(pass);
     setCopied(false);
-  }, [length, numAllowed, spaceAllowed, speciaCharAllowed]);
+  }, [length, numAllowed, spaceAllowed, speciaCharAllowed, setPassword]);
 
   useEffect(() => {
     passwordGenerator();
